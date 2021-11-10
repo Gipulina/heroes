@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+body{
+    height: 1024px;
+    width: auto;
+    background-color: rosybrown;   
+}
+/* Header */
+
+.descuentos{
+    Height:38px;
+    position:relative;
+    top:0;
+    background-color:rgba(28, 209, 176, 1);
+}
