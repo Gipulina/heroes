@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
@@ -14,7 +15,7 @@ body{
 height:38px;
 top:0;
 background-color:rgba(28, 209, 176, 1);
-font-family: 'Roboto', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
 align-items: center;
 }
 .descuentos p{
@@ -53,6 +54,7 @@ main{
     background-color:#F3F3F3;
     /* border:2px black double; */
     border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dos {
     color:green;
@@ -64,7 +66,56 @@ main{
     position: absolute;
     left:692px;
     top:0;
+    
 }
 .card .dos, .tres{
     margin-left: 20px;
+}
+
+/* Cards style*/
+img{
+    position: absolute;
+}
+.avatar{
+    position: relative;
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    left: 30%;
+    top: 25%;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.15);
+} 
+
+.avatar:hover{
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.35);
+}
+/* Texts */
+
+h2{
+    position: absolute;
+    background-color: blueviolet;
+    justify-content: center;
+}
+p{
+    background-color: ;
+}
+/* Button */
+
+button{
+    background-color: #00669F;
+    width: 128px;
+    height: 49px;
+    position: relative;
+    top: 234px;
+    left: 30%;
+    border:none;
+    color:whitesmoke;
+    box-shadow: 1px 1px 1px;
+}
+button:hover{
+    border-radius: 5px;
+    background-color:rgba(28, 209, 176, 1);
+    color:#00669F;
+    text-shadow: 0px 2px 2px gainsboro;
+    font-size: 15px;
 }
