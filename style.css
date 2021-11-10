@@ -6,7 +6,7 @@
 body{
     height: 1024px;
     width: auto;
-    background-color: rosybrown;   
+    background-color:#E5E5E5;
 }
 /* Header */
 
@@ -35,4 +35,36 @@ h1{
     top:33px;
     left:28px;
     /* font-size: 40px; */
+}
+
+/* Main */
+main{
+    position: absolute;
+    width: 960px;
+    height: 530px;
+    left: 151px;
+    top: 292px;
+    background-color: salmon;
+}
+.card{
+    /* position: relative; */
+    width: 300px;
+    height: 529px;
+    background-color:#F3F3F3;
+    /* border:2px black double; */
+    border-radius: 16px 16px 0px 0px;
+}
+.dos {
+    color:green;
+    position: absolute;
+    left:362px;
+    top:0;
+}
+.tres{
+    position: absolute;
+    left:692px;
+    top:0;
+}
+.card .dos, .tres{
+    margin-left: 20px;
 }
