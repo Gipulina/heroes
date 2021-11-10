@@ -1,6 +1,8 @@
 *{
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,500;1,700&family=Roboto:wght@100&display=swap');
+
 body{
     height: 1024px;
     width: auto;
@@ -9,8 +11,14 @@ body{
 /* Header */
 
 .descuentos{
-    Height:38px;
-    position:relative;
+    height:38px;
     top:0;
     background-color:rgba(28, 209, 176, 1);
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.descuentos p{
+    position: absolute;
+    top:10px;
+    left:15px;
 }
