@@ -18,7 +18,7 @@ background-color:rgba(28, 209, 176, 1);
 /* font-family: 'Roboto', sans-serif; */
 align-items: center;
 }
-.descuentos h3{
+.descuentos h3, footer h3{
 position: absolute;
 top:10px;
 left:15px;
@@ -45,7 +45,7 @@ main{
     height: 530px;
     left: 151px;
     top: 292px;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 .card{
     /* position: relative; */
@@ -124,7 +124,20 @@ button:hover{
     border-radius: 5px;
     background-color:rgba(28, 209, 176, 1);
     color:#00669F;
-    text-shadow: 0px 2px 2px gainsboro;
+    text-shadow: 0px 2px 2px #E5E5E5;
     font-size: 15px;
 }
 /* Footer */
+
+footer{
+    position: relative;
+    height:51px;
+    top:832px;
+    background:#00669F;
+    color:#E5E5E5;
+}
+footer h3{
+font-size: 16px;
+font-weight: 100;
+top:15px;
+}
